@@ -90,3 +90,4 @@ if __name__ == "__main__":
     }
     result = handle_event(test_event)
     print("Cloud node result:", result)
+

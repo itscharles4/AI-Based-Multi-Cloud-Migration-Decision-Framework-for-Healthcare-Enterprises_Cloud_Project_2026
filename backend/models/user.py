@@ -148,3 +148,4 @@ class DeadLetter(Base):
 
     def __repr__(self):
         return f"<DeadLetter id={self.id} topic={self.topic!r}>"
+

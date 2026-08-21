@@ -70,3 +70,4 @@ class TelemetryReading(Base):
             "signal_strength_dbm":  self.signal_strength_dbm,
             "current_latency_ms":   self.current_latency_ms,
         }
+

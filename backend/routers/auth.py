@@ -223,3 +223,4 @@ async def me(
         full_name=user.full_name, role=user.role.value,
         department=user.department, is_active=user.is_active,
     )
+

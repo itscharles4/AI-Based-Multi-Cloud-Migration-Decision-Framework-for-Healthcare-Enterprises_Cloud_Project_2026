@@ -191,3 +191,4 @@ async def send_emergency_alert(
         )
 
     return result
+

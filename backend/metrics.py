@@ -59,3 +59,4 @@ RIPE_FETCHES = Counter(
     "RIPE Atlas API data fetch operations",
     ["status"],          # success | error
 )
+

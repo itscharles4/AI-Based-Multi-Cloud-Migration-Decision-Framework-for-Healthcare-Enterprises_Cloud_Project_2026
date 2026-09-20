@@ -320,3 +320,4 @@ class TestLogger:
         log_event("TEST_FILE_CHECK", {"check": True})
         assert os.path.exists(os.path.join("logs", "system.log")), \
             "logs/system.log does not exist after logging"
+

@@ -115,3 +115,4 @@ async def cache_delete(key: str) -> None:
     """Invalidate a cache key."""
     r = get_redis()
     await r.delete(f"cache:{key}")
+

@@ -195,3 +195,4 @@ async def user_audit(
         }
         for r in rows
     ]
+

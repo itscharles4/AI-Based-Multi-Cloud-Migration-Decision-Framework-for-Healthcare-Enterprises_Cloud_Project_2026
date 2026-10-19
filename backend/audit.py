@@ -80,3 +80,4 @@ def verify_chain(db: Session) -> tuple[bool, int | None]:
             return False, row.id
         prev = row.hash
     return True, None
+

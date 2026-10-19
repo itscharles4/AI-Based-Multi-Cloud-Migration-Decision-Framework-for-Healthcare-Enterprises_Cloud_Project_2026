@@ -121,3 +121,4 @@ async def prometheus_metrics():
         content="\n".join(lines),
         media_type="text/plain; version=0.0.4",
     )
+

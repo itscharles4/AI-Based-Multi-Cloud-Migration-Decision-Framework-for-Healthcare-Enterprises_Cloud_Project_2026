@@ -162,3 +162,4 @@ def require_role(minimum_role: UserRole):
         return token_data
 
     return role_checker
+

@@ -186,3 +186,4 @@ async def run_pipeline(
         "alerted":                  alerted,
         "forecast_horizon_seconds": prediction.get("forecast_horizon_seconds", 30),
     }
+

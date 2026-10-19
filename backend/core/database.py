@@ -78,3 +78,4 @@ async def close_db():
     """Dispose of the engine (called on app shutdown)."""
     await engine.dispose()
     logger.info("[database] Engine disposed")
+

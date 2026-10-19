@@ -36,3 +36,4 @@ def configure_logging(level: str = "INFO") -> None:
 def get_logger(name: str = __name__) -> structlog.BoundLogger:
     """Convenience wrapper — same as structlog.get_logger() but importable from one place."""
     return structlog.get_logger(name)
+

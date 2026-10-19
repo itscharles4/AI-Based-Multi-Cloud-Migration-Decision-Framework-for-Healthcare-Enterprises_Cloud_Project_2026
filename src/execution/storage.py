@@ -188,3 +188,4 @@ if __name__ == "__main__":
     })
     print("Recent records:", get_recent_hot_records(5))
     print("Distribution:  ", get_routing_distribution())
+

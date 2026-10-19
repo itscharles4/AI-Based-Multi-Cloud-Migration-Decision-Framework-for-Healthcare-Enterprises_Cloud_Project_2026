@@ -109,3 +109,4 @@ class ColdStorage(Base):
 
     def __repr__(self):
         return f"<ColdStorage device={self.device_id!r} ts={self.timestamp}>"
+

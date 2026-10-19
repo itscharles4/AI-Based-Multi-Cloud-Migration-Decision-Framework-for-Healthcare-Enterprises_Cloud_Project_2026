@@ -104,3 +104,4 @@ if __name__ == "__main__":
     print(f"Verify bad token:   {verify_token('not-a-real-token')}")
     logout(tok)
     print(f"After logout:       {verify_token(tok)}")
+

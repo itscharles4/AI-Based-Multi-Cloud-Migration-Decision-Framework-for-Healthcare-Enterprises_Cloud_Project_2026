@@ -1,15 +1,15 @@
-"""
+﻿"""
 test_execution.py
 =================
 Pytest unit tests for the Execution Layer (Rani's module).
 
 Tests cover:
-  1. auth.py   — login success/failure, token verification, expiry, logout
-  2. storage.py — init_db, save_cold, save_hot, get_recent_hot_records,
+  1. auth.py   ΓÇö login success/failure, token verification, expiry, logout
+  2. storage.py ΓÇö init_db, save_cold, save_hot, get_recent_hot_records,
                   get_routing_distribution (using a temp in-memory DB)
-  3. edge_node.py  — handle_event returns correct schema, alerted=True
-  4. cloud_node.py — handle_event returns correct schema, alerted=False
-  5. logger.py  — log_event, log_warning, log_error do not raise
+  3. edge_node.py  ΓÇö handle_event returns correct schema, alerted=True
+  4. cloud_node.py ΓÇö handle_event returns correct schema, alerted=False
+  5. logger.py  ΓÇö log_event, log_warning, log_error do not raise
 
 Run with: pytest tests/test_execution.py -v
 """

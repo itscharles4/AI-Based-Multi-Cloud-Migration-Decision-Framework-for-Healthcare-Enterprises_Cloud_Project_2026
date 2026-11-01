@@ -1,5 +1,5 @@
 # Ownership map (usernames from the project report §12.2). GitHub requests a review from the owner of every changed path.
-# Charles Jehanabad (24BIT0522) - datasets, prediction
+# Charles  (24BIT0522) - datasets, prediction
 /data_ingestion/            @itscharles4
 /src/prediction/            @itscharles4
 /dataset/                   @itscharles4
